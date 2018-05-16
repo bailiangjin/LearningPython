@@ -31,7 +31,7 @@ print(L)
 
 # 角标越界
 
-# print(L[99])
+# print(
 
 # L[99] = 1
 
@@ -45,7 +45,6 @@ print(M)
 print(M[1])  # Get row 2
 
 print(M[1][2])  # Get row 2, then get item 3 within the row
-
 # 列表解析
 
 col2 = [row[1] for row in M]  # Collect the items in column 2
