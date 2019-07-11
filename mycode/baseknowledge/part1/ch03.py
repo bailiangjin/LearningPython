@@ -32,10 +32,10 @@ os.getcwd()        # <== Testing on the fly
 
 
 
-# for x in 'spam':
-# ...     print(x)       # <== Press Enter twice here to make this loop run
-# # ...
-#
+for x in 'spam':
+  print(x)       # <== Press Enter twice here to make this loop run
+# ...
+
 #
 #
 # for x in 'spam':
