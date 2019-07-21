@@ -1,8 +1,0 @@
-public class LivePathResponse extends BaseResponse {
-    public Data data;
-    public class Data implements Serializable {
-        public String type;
-        public String stream_id;
-        public String url;
-    }
-}

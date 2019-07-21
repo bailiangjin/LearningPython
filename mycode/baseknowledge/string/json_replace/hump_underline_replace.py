@@ -1,4 +1,4 @@
-# coding:utf-8
+
 import re
 
 def hump2underline(hunp_str):
@@ -21,4 +21,5 @@ def underline2hump(underline_str):
     '''
     # 这里re.sub()函数第二个替换参数用到了一个匿名回调函数，回调函数的参数x为一个匹配对象，返回值为一个处理后的字符串
     sub = re.sub(r'(_\w)',lambda x:x.group(1)[1].upper(),underline_str)
+    # sub = "@SerializedName(\""+underline_str+"\")\n"+ sub
     return sub
